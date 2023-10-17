@@ -25,3 +25,5 @@ $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
 Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
 
 (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
+
+// lets write some real bash scripts here
